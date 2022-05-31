@@ -2,11 +2,14 @@
     "name": "digiteon/module-testcomposer",
     "description": "test composer",
     "type": "magento2-module",
-    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "license": ["GPL-3.0"],
     "authors": [
         {
             "name": "Arun etrellis",
-            "email": "arun@etrellis.com"
+            "email": "arun@etrellis.com",
+            "homepage": "http://magento2latest.local.com/",
+            "role": "shoping site"
         }
     ],
     "minimum-stability": "dev",
@@ -16,7 +19,8 @@
             "registration.php"
         ],
         "psr-4": {
-            "Etrellis\\Customer\\": ""
+            "Digiteon\\TestComposer\\": ""
         }
-    }
+    },
+    
 }
